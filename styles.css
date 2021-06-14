@@ -1,0 +1,152 @@
+body {
+ 	font-size: 16px;
+ 	color: #fff;
+ 	background-color: #61122f;
+ 	font-family: 'oxygen', sans-serif;
+ }
+
+ #header-nav {
+ 	background-color: floralwhite;
+ 	border-radius:0;
+ 	border: 0;
+ }
+
+ #logo-img {
+ 	background: url("https://t3.ftcdn.net/jpg/03/72/31/22/360_F_372312242_DTz2geSwA20CM0uBYLJdxS2fqkvhYbMb.jpg");
+ 	width:150px;
+ 	height:150px;
+ 	margin: 10px 15px 10px 0;
+ }
+
+
+ .navbar-brand {
+    padding-top: 25px;
+ }
+
+ .navbar-brand h1{ /* Restaurant name */
+  font-family:'lora', serif;
+  color:#557c3e; 
+  font-size: 1.5em; 
+  text-transformation:uppercase;
+  font-weight:bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  
+ }
+
+ .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+ }
+
+ .navbar-brand p { /* cert */
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+ }
+
+ .navbar-brand p span { /*certifed */
+   vertical-align: middle;
+   horizontal-align: middle;
+ }
+
+ #nav-list {
+   margin-top: 10px;
+ }
+
+ #nav-list a {
+   color: #951C49;
+   text-align: center;
+   width: 100%;
+   display: inline;
+ }
+
+
+ #nav-list a:hover {
+   background: #E7E7E7;
+ }
+
+ #nav-list a span {
+   font-size: 1.5em;
+ }
+
+ #phone {
+   margin-top: 5px;
+ }
+
+#phone a { /* Phone number */
+ text-align: right;
+padding-bottom: 0;
+}
+
+#phone div { /* we deliver*/
+color: #557c3e;
+text-align: right;
+padding-right: 15px;
+}
+
+
+.navbar-brand > img {
+  display: block;
+}
+
+
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+  }
+}
+
+
+.navbar-toggler {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+
+.navbar-toggler: focus {
+  outline: 0;
+}
+
+
+.navbar-toggler .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+
+.navbar-toggler .icon-bar + .icon-bar {
+  margin-top: 4 px;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: none;
+  }
+}
+
+
+.navbar-nav {
+  margin: 7.5px- 15px;
+}
+
+
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
