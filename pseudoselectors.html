@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Pseudo Class Selectors
+		</title>
+
+		<style type="text/css">
+
+		 header li {
+		 	list-style:none;
+		 }
+
+
+		 a:link , a:visited {
+		 	background-color: lightgoldenrodyellow;
+		 	display: block;
+		 	border-width: 1px;
+		 	border-color: darkblue;
+		 	width: 200px;
+		 	text-align: center;
+		 	margin-bottom: 2px;
+		 }
+
+		 a:hover , a:active {
+		 	background-color: skyblue;
+		 }
+		 	
+		section {
+			margin-top: 40px;
+		}
+
+		header li:nth-child(3) {
+			font-size: 20px;
+		}
+
+		section div:nth-child(odd) {
+			background-color: lightgrey;
+		}
+
+		section div:nth-child(4):hover {
+			background-color: lightgoldenrodyellow;
+			cursor: pointer;
+		}
+
+		 </style>
+
+	</head>
+	<body>
+		<h1> PSEUDO CLASS SELECTORS</h1>
+
+		<header>
+			<ul>
+				<li> <a href="/" style="text-decoration: none;"> Home </a></li>
+				<li> <a href="/" style="text-decoration: none;"> Course</a></li>
+				<li> <a href="/" style="text-decoration: none;"> About </a></li>
+			</ul>
+		</header>
+
+		<section>
+			<div> DIV 1</div>
+			<div> DIV 2</div>
+			<div> DIV 3</div>
+			<div> DIV 4</div>
+			<div> DIV 5</div>
+			<div> DIV 6</div>
+			<div> DIV 7</div>
+			<div> DIV 8</div>
+			<div> DIV 9</div>
+			<div> DIV 10</div>
+			<div> DIV 11</div>
+
+			</section>
+	</body>
+	</html>
